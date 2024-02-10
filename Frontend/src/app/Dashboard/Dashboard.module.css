@@ -1,0 +1,29 @@
+/* Dashboard.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline;
+  align-items: space-between;
+  flex-direction: column; /* Change to column */
+  width: 100%; /* Ensure the form takes full width */
+  box-sizing: border-box;
+}
+
+.TextField,
+.BigTextField {
+  width: calc(100% - 20px); /* Adjust the width of each input */
+  margin-bottom: 10px; /* Add some spacing between inputs */
+}
+
+.btn {
+  width: 100%; /* Ensure the button takes full width */
+  margin-top: 20px;
+}
